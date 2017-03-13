@@ -13,3 +13,21 @@ For our circuit we will need:
                              5.Resistor
 
 ![alt text](https://github.com/Nikoanas/Smart-House/blob/master/curtains/curtains.jpg)
+
+##Let's connect our motion sensor(Ultrasonic)
+
+                            Parts List
+
+                           1 Arduino uno
+                           1 SR04 Ultrasonic Sensor
+                           1 breadboard
+                           4 jumper Wires 
+                     
+ You Need 4 Jumper wires to conect the SR04 Ultrasonic Sensor to the Arduino:
+1 From the SR04 VCC pin to the Arduino 5v
+1 From the SR04 GND pin to the Arduino GND
+1 From the SR04 TRG pin to the Arduino Digital pin 12
+1 From the SR04 ECHO pin to the Arduino Digital pin 11 
+
+                              ##About The Stepper
+                              
