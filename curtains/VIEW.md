@@ -1,1 +1,3 @@
-Opening and closing the curtains by pressing one button on your smartphone
+#Home Automation:Automated Curtain controlled from smartphone including motion and light sensor
+
+![alt text](file:///Users/Nikos/Desktop/arduino.jpg "Logo Title Text 1")
