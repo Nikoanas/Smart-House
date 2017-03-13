@@ -23,11 +23,11 @@ For our circuit we will need:
                            1 breadboard
                            4 jumper Wires 
                      
- You Need 4 Jumper wires to conect the SR04 Ultrasonic Sensor to the Arduino:
--1 From the SR04 VCC pin to the Arduino 5v
--1 From the SR04 GND pin to the Arduino GND
--1 From the SR04 TRG pin to the Arduino Digital pin 12
--1 From the SR04 ECHO pin to the Arduino Digital pin 11 
+    You Need 4 Jumper wires to conect the SR04 Ultrasonic Sensor to the Arduino:
+                                                                -1 From the SR04 VCC pin to the Arduino 5v
+                                                                -1 From the SR04 GND pin to the Arduino GND
+                                                                -1 From the SR04 TRG pin to the Arduino Digital pin 12
+                                                                -1 From the SR04 ECHO pin to the Arduino Digital pin 11 
 
 ##About The Stepper
                               
