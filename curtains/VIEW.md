@@ -1,3 +1,3 @@
 #Home Automation:Automated Curtain controlled from smartphone including motion and light sensor
 
-![alt text](file:///Users/Nikos/Desktop/arduino.jpg "Logo Title Text 1")
+![alt text](https://github.com/Nikoanas/Smart-House/blob/master/curtains/curtains.jpg)
