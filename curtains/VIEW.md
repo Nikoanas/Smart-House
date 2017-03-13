@@ -62,3 +62,47 @@ For our circuit we will need:
     Serial.println("Pause");
     delay(1000); // pause one second
     }
+
+## The Curtains
+
+     #include <NewPing.h>
+     #include <Stepper.h>
+    #include <AccelStepper.h>
+
+
+     #define LSENSOR A1
+     #define trigPin 13
+     #define echoPin 12 
+     #define TRIGGER_PIN  9
+     #define ECHO_PIN     10
+     #define MAX_DISTANCE 200
+
+    NewPing sonar(9, 10, 200);
+    boolean light_mode=true,sonar_mode=true;
+
+    void setup() {
+    Serial.begin(9600);
+    pinMode(6,OUTPUT); // Enable
+    digitalWrite(6,LOW); // Set Enable low
+    pinMode(trigPin, OUTPUT);
+    pinMode(echoPin, INPUT);
+     }
+
+    void loop() {
+    delay(50);
+    if(sonar_mode){
+     int cm = sonar.ping();
+    if (cm<200){
+    //open curtain
+    }else if (cm>200){
+    //close curtain
+    }
+    }
+    
+    if(light_mode){
+     int lum = analogRead(LSENSOR);
+    Serial.println(lum);
+    if (lum>750){
+     //open curtain
+    }else if (lum<750){
+    //close curtain
