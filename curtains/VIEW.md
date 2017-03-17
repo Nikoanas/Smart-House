@@ -1,6 +1,6 @@
-#Home Automation:Automated Curtain controlled from smartphone including motion and light sensor
+<h1>Home Automation:Automated Curtain controlled from smartphone including motion and light sensor</h1>
 
-##How to use a photoresistor:
+<h2>How to use a photoresistor:</h2>
 
 A photoresistor or photocell is a light-controlled variable resistor. The resistance of a photoresistor decreases with increasing incident light intensity. A photoresistor can be applied in light-sensitive detector circuits, and light- and dark-activated switching circuits. It's also called light-dependent resistor (LDR). 
 
@@ -14,8 +14,7 @@ For our circuit we will need:
 
 ![alt text](https://github.com/Nikoanas/Smart-House/blob/master/curtains/curtains.jpg)
 
-##Let's connect our motion sensor(Ultrasonic)
-
+<h2>Let's connect our motion sensor(Ultrasonic)</h2>
                             Parts List
 
                            1 Arduino uno
@@ -29,13 +28,13 @@ For our circuit we will need:
                                                                 -1 From the SR04 TRG pin to the Arduino Digital pin 12
                                                                 -1 From the SR04 ECHO pin to the Arduino Digital pin 11 
 
-##About The Stepper
+<h2>About The Stepper</h2>
                               
 ![alt text](https://github.com/Nikoanas/Smart-House/blob/master/curtains/curtains_driver.png)
 
 ![alt text](https://github.com/Nikoanas/Smart-House/blob/master/curtains/curtains_driver_2.jpg)
 
-##The Stepper Code :
+<h2>The Stepper Code :</h2>
    
      int x; 
     #define BAUD (9600)
@@ -63,7 +62,7 @@ For our circuit we will need:
     delay(1000); // pause one second
     }
 
-## The Curtains
+<h2> The Curtains</h2>
 
      #include <NewPing.h>
      #include <Stepper.h>
